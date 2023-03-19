@@ -1,5 +1,6 @@
 # backend-interview
 기록하며 공부하는 공간  
+Backend Engineer interview 질문 정리 목적
 
 ### Programming
 * [Q: 클래스 변수, 인스턴스 변수의 차이는 무엇인가요?](Programming/variables/class-instance-vars.md)
