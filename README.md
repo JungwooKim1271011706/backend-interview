@@ -10,7 +10,7 @@ Backend Engineer interview 질문 정리 목적
 ### OS
 * [Q: 스레드와 프로세스의 차이를 설명해보세요.](OperatingSystem/ThreadProcess/thread_process.md)
 ### Database
-
+* [Q: 인덱스에 대해 설명해주세요.]()
 ### Algorithm, Data Structure
 
 ### Security
