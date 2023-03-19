@@ -2,7 +2,7 @@
 기록하며 공부하는 공간  
 
 ### Programming
-* [클래스 변수, 인스턴스 변수](./programming/variables/class-instance-vars.md)
+* [Q: 클래스 변수, 인스턴스 변수의 차이는 무엇인가요?](./programming/variables/class-instance-vars.md)
 
 ### Network
 
