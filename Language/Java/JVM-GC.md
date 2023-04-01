@@ -21,7 +21,7 @@
     
     ## 영역별 데이터 흐름
     
-    ![Untitled](%5BJAVA%5D%20JVM%20-%20GC%202ad4eb6db78b4257b52fa4846978fe97/Untitled.png)
+    ![Untitled](./img/jvm-gc.png)
     
     - Perm 영역
         - Method Area. 객체나 억류된 문자열 정보를 저장하는 곳
@@ -54,7 +54,7 @@
 
 ## Minor GC를 통해서 Old 영역까지 데이터가 쌓이는 절차
 
-![Untitled](%5BJAVA%5D%20JVM%20-%20GC%202ad4eb6db78b4257b52fa4846978fe97/Untitled%201.png)
+![Untitled](./img/jvm-gc-2.png)
 
 - HotSpot VM에서 빠른 메모리 할당을 위해 두 가지 기술 사용
     - bump-the-pointer
@@ -103,7 +103,7 @@
 
 ## Serial GC VS CMS GC
 
-![Untitled](%5BJAVA%5D%20JVM%20-%20GC%202ad4eb6db78b4257b52fa4846978fe97/Untitled%202.png)
+![Untitled](./img/jvm-gc-3.png)
 
 - 초기 Inital Mard 단계 : 클래스 로더에서 가장 가까운 객체 중 살아 있는 객체만 탐색
 - Concurrent Mark 단계 : 살아 있다 확인한 객체에서 참조하고 있는 객체들을 따라다니면서 확인
@@ -124,7 +124,7 @@
 - 해당 영역이 꽉 차면 다른 영역에서 객체 할당하고 GC 실행
 - Young의 세 가지 영역에서 데이터가 Old 영역으로 이동하는 단계가 사라진 GC 방식으로 CMS GC를 대체하기 위해 만들어짐
     
-    ![Untitled](%5BJAVA%5D%20JVM%20-%20GC%202ad4eb6db78b4257b52fa4846978fe97/Untitled%203.png)
+    ![Untitled](./img/jvm-gc-4.png)
     
 - 장점
     - 다른 GC 알고리즘보다 성능이 우수함
