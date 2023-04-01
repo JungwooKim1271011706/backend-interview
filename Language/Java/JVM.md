@@ -39,7 +39,7 @@
 - 클래스 파일 자체는 바이너리 파일이므로 개발자가 이해하기 어려우며, 이를 보완하기 위해 JVM 벤더들은 javap라고 하는 역 어셈블러를 제공
 - 역 어셈블러를 통해서 변환할 경우 결과물
     
-    ![이미지 107.png](%5BJAVA%5D%20JVM%20Java%20Virtual%20Machine%20f50f6fbd70964ed6b5e8b9719530a783/%EC%9D%B4%EB%AF%B8%EC%A7%80_107.png)
+    ![이미지 107.png](./img/jvm_5.png)
     
     - addUser() 메서드를 호출하는 부분은 4번째 줄인 5:invokevirtual #23
         - 23번 인덱스에 해당하는 메서드 호출
@@ -52,12 +52,12 @@
             - invokevirtual: 인스턴스 메서드 호출
         - 자바 바이트코드에서 코드 표현
             
-            ![이미지 108.png](%5BJAVA%5D%20JVM%20Java%20Virtual%20Machine%20f50f6fbd70964ed6b5e8b9719530a783/%EC%9D%B4%EB%AF%B8%EC%A7%80_108.png)
+            ![이미지 108.png](./img/jvm_11.png)
             
 
 # 자바 코드 실행 절차 및 JVM의 구조
 
-![이미지 109.png](%5BJAVA%5D%20JVM%20Java%20Virtual%20Machine%20f50f6fbd70964ed6b5e8b9719530a783/%EC%9D%B4%EB%AF%B8%EC%A7%80_109.png)
+![이미지 109.png](./img/jvm_10.png)
 
 ## 자바 코드 실행 절차
 
@@ -87,7 +87,7 @@
 
 ### 클래스 로더 위임 모델
 
-![이미지 110.png](%5BJAVA%5D%20JVM%20Java%20Virtual%20Machine%20f50f6fbd70964ed6b5e8b9719530a783/%EC%9D%B4%EB%AF%B8%EC%A7%80_110.png)
+![이미지 110.png](./img/jvm_9.png)
 
 - 클래스 로더가 클래스 요청을 수행 절차
     - 클래스 로더 캐시에 로드된 클래스가 있는지 확인
@@ -108,7 +108,7 @@
         - 애플리케이션 사용자가 직접 코드 상에서 생성해서 사용하는 클래스 로더
 - 클래스 로더가 로드할 클래스를 찾으면, 아래와 같은 과정을 거쳐서 클래스 로드 → 링크 → 초기화 진행
     
-    ![이미지 111.png](%5BJAVA%5D%20JVM%20Java%20Virtual%20Machine%20f50f6fbd70964ed6b5e8b9719530a783/%EC%9D%B4%EB%AF%B8%EC%A7%80_111.png)
+    ![이미지 111.png](./img/jvm_8.png)
     
     - 로드
         - 클래스 파일을 가져와서 JVM 메모리에 로드
@@ -126,7 +126,7 @@
 
 ## 런타임 데이터 영역 Runtime Data Areas
 
-![이미지 112.png](%5BJAVA%5D%20JVM%20Java%20Virtual%20Machine%20f50f6fbd70964ed6b5e8b9719530a783/%EC%9D%B4%EB%AF%B8%EC%A7%80_112.png)
+![이미지 112.png](./img/jvm_7.png)
 
 - JVM이 OS에서 할당 받은 메모리 영역
 - 런타임 데이터 영역은 6개의 영역으로 분할 가능
@@ -140,7 +140,7 @@
     - 스택 프레임이라는 구조체를 저장하는 스택
         - JVM은 JVM 스택에 스택 프레임을 추가하고 저장하는 동작만 수행
         
-        ![이미지 113.png](%5BJAVA%5D%20JVM%20Java%20Virtual%20Machine%20f50f6fbd70964ed6b5e8b9719530a783/%EC%9D%B4%EB%AF%B8%EC%A7%80_113.png)
+        ![이미지 113.png](./img/jvm_6.png)
         
 - 스택 프레임
     - JVM 내에서 메서드가 수행될 때마다 하나의 스택 프레임 생성되어 해당 스레드의 JVM 스택에 추가
@@ -174,16 +174,16 @@
     - 가비지 컬랙션 대상
 - 역 어셈블된 바이트코드
     
-    ![이미지 107.png](%5BJAVA%5D%20JVM%20Java%20Virtual%20Machine%20f50f6fbd70964ed6b5e8b9719530a783/%EC%9D%B4%EB%AF%B8%EC%A7%80_107.png)
+    ![이미지 107.png](./img/jvm_5.png)
     
     - JVM은 자체적으로 메모리를 관리하기 때문에, 실제 메모리 주소 대신, 15, 23과 같은 인덱스 번호 사용
         - 15, 23은 상수 풀의 인덱스
         - JVM은 각 클래스마다 상수 풀을 생성하며, 실제 대상의 레퍼런스를 보관하고 있음
     - 역 어셈블된 코드의 각 줄에 대한 해석과 도식화
         
-        ![이미지 114.png](%5BJAVA%5D%20JVM%20Java%20Virtual%20Machine%20f50f6fbd70964ed6b5e8b9719530a783/%EC%9D%B4%EB%AF%B8%EC%A7%80_114.png)
+        ![이미지 114.png](./img/jvm_4.png)
         
-        ![이미지 115.png](%5BJAVA%5D%20JVM%20Java%20Virtual%20Machine%20f50f6fbd70964ed6b5e8b9719530a783/%EC%9D%B4%EB%AF%B8%EC%A7%80_115.png)
+        ![이미지 115.png](./img/jvm_3.png)
         
 
 ## 실행 엔진
@@ -202,9 +202,9 @@
             - 네이티브 코드는 캐시에 보관
 - JIT 컴파일러를 사용하는 JVM은 내부적으로 해당 메서드의 실행 주기를 체크하여, 일정 정도를 웃돌 경우만 컴파일을 수행
     
-    ![이미지 116.png](%5BJAVA%5D%20JVM%20Java%20Virtual%20Machine%20f50f6fbd70964ed6b5e8b9719530a783/%EC%9D%B4%EB%AF%B8%EC%A7%80_116.png)
+    ![이미지 116.png](./img/jvm_2.png)
     
-    ![이미지 117.png](%5BJAVA%5D%20JVM%20Java%20Virtual%20Machine%20f50f6fbd70964ed6b5e8b9719530a783/%EC%9D%B4%EB%AF%B8%EC%A7%80_117.png)
+    ![이미지 117.png](./img/jvm_1.png)
     
     - JIT 컴파일러는 바이트코드를 중단 단계인 IR Intermediate Representation로 변환하여 최적화 수행 후 네티이브 코드 생성
 
