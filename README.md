@@ -21,4 +21,6 @@ Backend Engineer interview 질문 정리 목적
 
 ## Language
 ### Java
-* [Q: Jvm GC 알고리즘을 설명하세요.(~Java8)]
+* [Q: Jvm GC 알고리즘을 설명하세요.(~Java8)](Language/Java/JVM-GC.md)
+
+* [Q: Jvm가 무엇인지 설명하세요,](Language/Java/JVM.md)
