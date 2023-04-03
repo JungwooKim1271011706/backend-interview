@@ -15,7 +15,7 @@ Backend Engineer interview 질문 정리 목적
 
 ## Algorithm, Data Structure
 * [Q: 알고리즘에서 정확한 성능 측정을 하지 않고 BigO 표기법을 사용하는 이유는 뭔가요.](Algorithm/Complexity/bigO.md)
-* 
+* [Q: 평균적으로 가장 성능이 좋은 정렬 알고리즘은 무엇인가요.](Algorithm/Sorting/bestAverageCase.md)
 ## Security
 
 ## Compiler
