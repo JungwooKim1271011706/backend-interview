@@ -14,7 +14,8 @@ Backend Engineer interview 질문 정리 목적
 * [Q: 인덱스에 대해 설명해주세요.](Database/Index/index.md)  
 
 ## Algorithm, Data Structure
-
+* [Q: 알고리즘에서 정확한 성능 측정을 하지 않고 BigO 표기법을 사용하는 이유는 뭔가요.](Algorithm/Complexity/bigO.md)
+* 
 ## Security
 
 ## Compiler
