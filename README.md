@@ -25,4 +25,5 @@ Backend Engineer interview 질문 정리 목적
 
 * [Q: JVM GC 알고리즘을 설명하세요.(~Java8)](Language/Java/JVM-GC.md)
 
-
+## Kubernetes
+* [Q. 쿠버네티스의 구성요소는 무엇이 있나요.](Kubernetes/components/components.md)
