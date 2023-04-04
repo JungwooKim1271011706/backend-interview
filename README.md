@@ -18,6 +18,7 @@ Backend Engineer interview 질문 정리 목적
 * [Q: 평균적으로 가장 성능이 좋은 정렬 알고리즘은 무엇인가요.](Algorithm/Sorting/bestAverageCase.md)
 * [Q: 메모리가 효율적이고 최악의 경우에도 적절한 정렬 알고리즘은 무엇인가요.](Algorithm/Sorting/bestMembestWorst.md)
 * [Q: 입력값이 N, 데이터가 3n-1의 정규식을 따를 때 적절한 알고리즘은 무엇인가요.](Algorithm/Sorting/inputN3N-1.md)
+* [Q: Topological Sort에 대해 설명하시오.](/Algorithm/Sorting/topological.md)
 
 ## Security
 
@@ -26,7 +27,4 @@ Backend Engineer interview 질문 정리 목적
 ## Language
 ### Java
 * [Q: JVM가 무엇인지 설명하세요.](Language/Java/JVM.md)
-
 * [Q: JVM GC 알고리즘을 설명하세요.(~Java8)](Language/Java/JVM-GC.md)
-
-
