@@ -27,8 +27,8 @@ Backend Engineer interview 질문 정리 목적
 ## Kubernetes
 * [Q. 쿠버네티스의 구성요소는 무엇이 있나요.](Kubernetes/components/components.md)
 * [Q. VM과 Container의 차이는 무엇인가요.](Kubernetes/components/container.md)
-* [Q. k8s의 Pod는 무엇인가요.](Kubernetes/components/pod.md)
-* [Q. k8s의 replicaset은 무엇인가요.](Kubernetes/components/replicaset.md)
-* [Q. k8s의 deployment는 무엇인가요.](Kubernetes/components/deployment.md)
-* [Q. k8s의 service는 무엇인가요.](Kubernetes/components/service.md)
-* [Q. k8s의 namespace는 무엇인가요.](Kubernetes/components/namespace.md)
+* [Q. K8S의 Pod은 무엇인가요.](Kubernetes/components/pod.md)
+* [Q. K8S의 Replicaset은 무엇인가요.](Kubernetes/components/replicaset.md)
+* [Q. K8S의 Deployment는 무엇인가요.](Kubernetes/components/deployment.md)
+* [Q. K8S의 Service는 무엇인가요.](Kubernetes/components/service.md)
+* [Q. K8S의 Namespace는 무엇인가요.](Kubernetes/components/namespace.md)
