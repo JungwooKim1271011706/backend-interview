@@ -22,14 +22,13 @@ Backend Engineer interview 질문 정리 목적
 ## Language
 ### Java
 * [Q: JVM가 무엇인지 설명하세요.](Language/Java/JVM.md)
-
 * [Q: JVM GC 알고리즘을 설명하세요.(~Java8)](Language/Java/JVM-GC.md)
 
 ## Kubernetes
 * [Q. 쿠버네티스의 구성요소는 무엇이 있나요.](Kubernetes/components/components.md)
 * [Q. VM과 Container의 차이는 무엇인가요.](Kubernetes/components/container.md)
-* []()
-* []()
-* []()
-* []()
-* []()
+* [Q. k8s의 Pod를 무엇인가요.](Kubernetes/components/pod.md)
+* [Q. k8s의 replicaset은 무엇인가요.](Kubernetes/components/replicaset.md)
+* [Q. k8s의 deployment는 무엇인가요.](Kubernetes/components/deployment.md)
+* [Q. k8s의 service는 무엇인가요.](Kubernetes/components/service.md)
+* [Q. k8s의 namespace는 무엇인가요.](Kubernetes/components/namespace.md)
