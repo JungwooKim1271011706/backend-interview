@@ -32,3 +32,4 @@ Backend Engineer interview 질문 정리 목적
 * [Q. K8S의 Deployment는 무엇인가요.](Kubernetes/components/deployment.md)
 * [Q. K8S의 Service는 무엇인가요.](Kubernetes/components/service.md)
 * [Q. K8S의 Namespace는 무엇인가요.](Kubernetes/components/namespace.md)
+* [Q. Deployment 수행 시 통신 과정을 설명하시오.](Kubernetes/workload/deployment-process.md)
