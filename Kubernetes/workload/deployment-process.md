@@ -1,0 +1,1 @@
+### Kubernetes의 Deployment가 생성될 경우 통신, 프로세스를 설명하시오.
