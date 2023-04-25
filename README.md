@@ -14,13 +14,18 @@ Backend Engineer interview 질문 정리 목적
 * [Q: 인덱스에 대해 설명해주세요.](Database/Index/index.md)  
 
 ## Algorithm, Data Structure
+* [Q: 알고리즘에서 정확한 성능 측정을 하지 않고 BigO 표기법을 사용하는 이유는 뭔가요.](Algorithm/Complexity/bigO.md)
+* [Q: 평균적으로 가장 성능이 좋은 정렬 알고리즘은 무엇인가요.](Algorithm/Sorting/bestAverageCase.md)
+* [Q: 메모리가 효율적이고 최악의 경우에도 적절한 정렬 알고리즘은 무엇인가요.](Algorithm/Sorting/bestMembestWorst.md)
+* [Q: 입력값이 N, 데이터가 3n-1의 정규식을 따를 때 적절한 알고리즘은 무엇인가요.](Algorithm/Sorting/inputN3N-1.md)
+* [Q: Topological Sort에 대해 설명하시오.](/Algorithm/Sorting/topological.md)
 
 ## Security
 
 ## Compiler
 
 ## Language
-### Java
+### Java  
 * [Q: JVM가 무엇인지 설명하세요.](Language/Java/JVM.md)
 * [Q: JVM GC 알고리즘을 설명하세요.(~Java8)](Language/Java/JVM-GC.md)
 * [Q: Java에서 static에 대해 아는대로 설명해보세요.](https://github.com/JungwooKim1271011706/backend-interview/blob/document/language/java/Language/Java/java_static.md)
