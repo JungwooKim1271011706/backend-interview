@@ -27,5 +27,7 @@ Backend Engineer interview 질문 정리 목적
 * [Q.HashMap의 시간복잡도를 말해주세요.](Language/Java/java_hashMap.md)
 * [Q.HashMap은 어떻게 구현되어있길래 그렇게 빠르게 값을 탐색하나요?](Language/Java/java_hashMap.md)
 * [Q. HashMap과 HashTable의 차이는 무엇인가요?](Language/Java/java_hashMap+multiThread.md)
+* [Q. HashMap은 멀티 스레드 환경에서 안전하지 않은데 thread-safe하게 사용하려면 어떻게 해야 할까요?](Language/Java/java_hashMap+multiThread.md)
+* [Q. HashTable과 ConCurrentHashMap 간의 차이점은 무엇인가요?](Language/Java/java_hashMap+multiThread.md)
 
 
