@@ -22,7 +22,15 @@ Backend Engineer interview 질문 정리 목적
 ## Language
 ### Java
 * [Q: JVM가 무엇인지 설명하세요.](Language/Java/JVM.md)
+
 * [Q: JVM GC 알고리즘을 설명하세요.(~Java8)](Language/Java/JVM-GC.md)
+
 * [Q: Java에서 static에 대해 아는대로 설명해보세요.](https://github.com/JungwooKim1271011706/backend-interview/blob/document/language/java/Language/Java/java_static.md)
+
+* [Q.HashMap의 시간복잡도를 말해주세요.]()
+
+* [Q.HashMap은 어떻게 구현되어있길래 그렇게 빠르게 값을 탐색하나요?]()
+
+  
 
 
