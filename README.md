@@ -13,6 +13,10 @@ Backend Engineer interview 질문 정리 목적
 ## Database
 * [Q: 인덱스에 대해 설명해주세요.](Database/Index/index.md)  
 
+### NoSQL
+* [Q: MongoDB에 대하여 간단히 설명해주세요.](Database/MongoDB/mongodb.md)
+* [Q: MongoDB와 일반적인 RDB와 비교해주세요.](Database/MongoDB/compareRDB.md)
+
 ## Algorithm, Data Structure
 * [Q: 알고리즘에서 정확한 성능 측정을 하지 않고 BigO 표기법을 사용하는 이유는 뭔가요.](Algorithm/Complexity/bigO.md)
 * [Q: 평균적으로 가장 성능이 좋은 정렬 알고리즘은 무엇인가요.](Algorithm/Sorting/bestAverageCase.md)
