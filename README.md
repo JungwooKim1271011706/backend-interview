@@ -17,6 +17,7 @@ Backend Engineer interview 질문 정리 목적
 * [Q: MongoDB에 대하여 간단히 설명해주세요.](Database/MongoDB/mongodb.md)
 * [Q: MongoDB와 일반적인 RDB와 비교해주세요.](Database/MongoDB/compareRDB.md)
 * [Q: MongoDB의 특장점은 무엇인가요.](Database/MongoDB/featureMongoDB.md)
+* [Q: 샤드(Shard)는 무엇인가요](Database/MongoDB/shardingMongo.md)
 
 ## Algorithm, Data Structure
 * [Q: 알고리즘에서 정확한 성능 측정을 하지 않고 BigO 표기법을 사용하는 이유는 뭔가요.](Algorithm/Complexity/bigO.md)
